@@ -10,6 +10,33 @@
 		8EFCB0061A9DA34500D73449 /* onion-model.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB0051A9DA34500D73449 /* onion-model.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EFCB00C1A9DA34500D73449 /* onion-model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFCB0001A9DA34500D73449 /* onion-model.framework */; };
 		8EFCB0131A9DA34500D73449 /* onion_modelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB0121A9DA34500D73449 /* onion_modelTests.m */; };
+		8EFCB0241A9DA3B800D73449 /* FAAPIAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB01E1A9DA3B800D73449 /* FAAPIAdapter.h */; };
+		8EFCB0251A9DA3B800D73449 /* FAModelImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB01F1A9DA3B800D73449 /* FAModelImporter.h */; };
+		8EFCB0261A9DA3B800D73449 /* FAModelMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB0201A9DA3B800D73449 /* FAModelMapping.h */; };
+		8EFCB0271A9DA3B800D73449 /* FAModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB0221A9DA3B800D73449 /* FAModelObject.h */; };
+		8EFCB0281A9DA3B800D73449 /* FAModelRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB0231A9DA3B800D73449 /* FAModelRepository.h */; };
+		8EFCB0431A9DA3C100D73449 /* FACoreDataImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB02B1A9DA3C100D73449 /* FACoreDataImporter.h */; };
+		8EFCB0441A9DA3C100D73449 /* FACoreDataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB02C1A9DA3C100D73449 /* FACoreDataImporter.m */; };
+		8EFCB0451A9DA3C100D73449 /* NSArray+FANullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB02D1A9DA3C100D73449 /* NSArray+FANullSafe.h */; };
+		8EFCB0461A9DA3C100D73449 /* NSArray+FANullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB02E1A9DA3C100D73449 /* NSArray+FANullSafe.m */; };
+		8EFCB0471A9DA3C100D73449 /* NSDictionary+FATypeSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB02F1A9DA3C100D73449 /* NSDictionary+FATypeSafe.h */; };
+		8EFCB0481A9DA3C100D73449 /* NSDictionary+FATypeSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB0301A9DA3C100D73449 /* NSDictionary+FATypeSafe.m */; };
+		8EFCB0491A9DA3C100D73449 /* NSManagedObject+FARelationships.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB0311A9DA3C100D73449 /* NSManagedObject+FARelationships.h */; };
+		8EFCB04A1A9DA3C100D73449 /* NSManagedObject+FARelationships.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB0321A9DA3C100D73449 /* NSManagedObject+FARelationships.m */; };
+		8EFCB04B1A9DA3C100D73449 /* data_model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB0341A9DA3C100D73449 /* data_model.xcdatamodel */; };
+		8EFCB04C1A9DA3C100D73449 /* FACoreDataManager+FADefaultManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB0351A9DA3C100D73449 /* FACoreDataManager+FADefaultManager.h */; };
+		8EFCB04D1A9DA3C100D73449 /* FACoreDataManager+FADefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB0361A9DA3C100D73449 /* FACoreDataManager+FADefaultManager.m */; };
+		8EFCB04E1A9DA3C100D73449 /* FACoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB0371A9DA3C100D73449 /* FACoreDataManager.h */; };
+		8EFCB04F1A9DA3C100D73449 /* FACoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB0381A9DA3C100D73449 /* FACoreDataManager.m */; };
+		8EFCB0501A9DA3C100D73449 /* FACoreDataRepository+FADefaultRepositories.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB0391A9DA3C100D73449 /* FACoreDataRepository+FADefaultRepositories.h */; };
+		8EFCB0511A9DA3C100D73449 /* FACoreDataRepository+FADefaultRepositories.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB03A1A9DA3C100D73449 /* FACoreDataRepository+FADefaultRepositories.m */; };
+		8EFCB0521A9DA3C100D73449 /* FACoreDataRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB03B1A9DA3C100D73449 /* FACoreDataRepository.h */; };
+		8EFCB0531A9DA3C100D73449 /* FACoreDataRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB03C1A9DA3C100D73449 /* FACoreDataRepository.m */; };
+		8EFCB0541A9DA3C100D73449 /* FAManagedObjectContextProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB03D1A9DA3C100D73449 /* FAManagedObjectContextProvider.h */; };
+		8EFCB0551A9DA3C100D73449 /* _BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB03F1A9DA3C100D73449 /* _BaseModel.h */; };
+		8EFCB0561A9DA3C100D73449 /* _BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB0401A9DA3C100D73449 /* _BaseModel.m */; };
+		8EFCB0571A9DA3C100D73449 /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFCB0411A9DA3C100D73449 /* BaseModel.h */; };
+		8EFCB0581A9DA3C100D73449 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCB0421A9DA3C100D73449 /* BaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +56,33 @@
 		8EFCB00B1A9DA34500D73449 /* onion-modelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "onion-modelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFCB0111A9DA34500D73449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EFCB0121A9DA34500D73449 /* onion_modelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = onion_modelTests.m; sourceTree = "<group>"; };
+		8EFCB01E1A9DA3B800D73449 /* FAAPIAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAAPIAdapter.h; sourceTree = "<group>"; };
+		8EFCB01F1A9DA3B800D73449 /* FAModelImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAModelImporter.h; sourceTree = "<group>"; };
+		8EFCB0201A9DA3B800D73449 /* FAModelMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAModelMapping.h; sourceTree = "<group>"; };
+		8EFCB0221A9DA3B800D73449 /* FAModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAModelObject.h; sourceTree = "<group>"; };
+		8EFCB0231A9DA3B800D73449 /* FAModelRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAModelRepository.h; sourceTree = "<group>"; };
+		8EFCB02B1A9DA3C100D73449 /* FACoreDataImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FACoreDataImporter.h; sourceTree = "<group>"; };
+		8EFCB02C1A9DA3C100D73449 /* FACoreDataImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FACoreDataImporter.m; sourceTree = "<group>"; };
+		8EFCB02D1A9DA3C100D73449 /* NSArray+FANullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FANullSafe.h"; sourceTree = "<group>"; };
+		8EFCB02E1A9DA3C100D73449 /* NSArray+FANullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FANullSafe.m"; sourceTree = "<group>"; };
+		8EFCB02F1A9DA3C100D73449 /* NSDictionary+FATypeSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FATypeSafe.h"; sourceTree = "<group>"; };
+		8EFCB0301A9DA3C100D73449 /* NSDictionary+FATypeSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FATypeSafe.m"; sourceTree = "<group>"; };
+		8EFCB0311A9DA3C100D73449 /* NSManagedObject+FARelationships.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+FARelationships.h"; sourceTree = "<group>"; };
+		8EFCB0321A9DA3C100D73449 /* NSManagedObject+FARelationships.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+FARelationships.m"; sourceTree = "<group>"; };
+		8EFCB0341A9DA3C100D73449 /* data_model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = data_model.xcdatamodel; sourceTree = "<group>"; };
+		8EFCB0351A9DA3C100D73449 /* FACoreDataManager+FADefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FACoreDataManager+FADefaultManager.h"; sourceTree = "<group>"; };
+		8EFCB0361A9DA3C100D73449 /* FACoreDataManager+FADefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FACoreDataManager+FADefaultManager.m"; sourceTree = "<group>"; };
+		8EFCB0371A9DA3C100D73449 /* FACoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FACoreDataManager.h; sourceTree = "<group>"; };
+		8EFCB0381A9DA3C100D73449 /* FACoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FACoreDataManager.m; sourceTree = "<group>"; };
+		8EFCB0391A9DA3C100D73449 /* FACoreDataRepository+FADefaultRepositories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FACoreDataRepository+FADefaultRepositories.h"; sourceTree = "<group>"; };
+		8EFCB03A1A9DA3C100D73449 /* FACoreDataRepository+FADefaultRepositories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FACoreDataRepository+FADefaultRepositories.m"; sourceTree = "<group>"; };
+		8EFCB03B1A9DA3C100D73449 /* FACoreDataRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FACoreDataRepository.h; sourceTree = "<group>"; };
+		8EFCB03C1A9DA3C100D73449 /* FACoreDataRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FACoreDataRepository.m; sourceTree = "<group>"; };
+		8EFCB03D1A9DA3C100D73449 /* FAManagedObjectContextProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAManagedObjectContextProvider.h; sourceTree = "<group>"; };
+		8EFCB03F1A9DA3C100D73449 /* _BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _BaseModel.h; sourceTree = "<group>"; };
+		8EFCB0401A9DA3C100D73449 /* _BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _BaseModel.m; sourceTree = "<group>"; };
+		8EFCB0411A9DA3C100D73449 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		8EFCB0421A9DA3C100D73449 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +125,8 @@
 		8EFCB0021A9DA34500D73449 /* onion-model */ = {
 			isa = PBXGroup;
 			children = (
+				8EFCB01C1A9DA3B800D73449 /* CoreApplication */,
+				8EFCB0291A9DA3C100D73449 /* Implementing */,
 				8EFCB0051A9DA34500D73449 /* onion-model.h */,
 				8EFCB0031A9DA34500D73449 /* Supporting Files */,
 			);
@@ -102,6 +158,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8EFCB01C1A9DA3B800D73449 /* CoreApplication */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCB01D1A9DA3B800D73449 /* ModelImporter */,
+				8EFCB0211A9DA3B800D73449 /* ModelRepository */,
+			);
+			path = CoreApplication;
+			sourceTree = "<group>";
+		};
+		8EFCB01D1A9DA3B800D73449 /* ModelImporter */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCB01E1A9DA3B800D73449 /* FAAPIAdapter.h */,
+				8EFCB01F1A9DA3B800D73449 /* FAModelImporter.h */,
+				8EFCB0201A9DA3B800D73449 /* FAModelMapping.h */,
+			);
+			path = ModelImporter;
+			sourceTree = "<group>";
+		};
+		8EFCB0211A9DA3B800D73449 /* ModelRepository */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCB0221A9DA3B800D73449 /* FAModelObject.h */,
+				8EFCB0231A9DA3B800D73449 /* FAModelRepository.h */,
+			);
+			path = ModelRepository;
+			sourceTree = "<group>";
+		};
+		8EFCB0291A9DA3C100D73449 /* Implementing */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCB02A1A9DA3C100D73449 /* ModelImporter */,
+				8EFCB0331A9DA3C100D73449 /* ModelRepository */,
+			);
+			path = Implementing;
+			sourceTree = "<group>";
+		};
+		8EFCB02A1A9DA3C100D73449 /* ModelImporter */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCB02B1A9DA3C100D73449 /* FACoreDataImporter.h */,
+				8EFCB02C1A9DA3C100D73449 /* FACoreDataImporter.m */,
+				8EFCB02D1A9DA3C100D73449 /* NSArray+FANullSafe.h */,
+				8EFCB02E1A9DA3C100D73449 /* NSArray+FANullSafe.m */,
+				8EFCB02F1A9DA3C100D73449 /* NSDictionary+FATypeSafe.h */,
+				8EFCB0301A9DA3C100D73449 /* NSDictionary+FATypeSafe.m */,
+				8EFCB0311A9DA3C100D73449 /* NSManagedObject+FARelationships.h */,
+				8EFCB0321A9DA3C100D73449 /* NSManagedObject+FARelationships.m */,
+			);
+			path = ModelImporter;
+			sourceTree = "<group>";
+		};
+		8EFCB0331A9DA3C100D73449 /* ModelRepository */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCB0341A9DA3C100D73449 /* data_model.xcdatamodel */,
+				8EFCB0351A9DA3C100D73449 /* FACoreDataManager+FADefaultManager.h */,
+				8EFCB0361A9DA3C100D73449 /* FACoreDataManager+FADefaultManager.m */,
+				8EFCB0371A9DA3C100D73449 /* FACoreDataManager.h */,
+				8EFCB0381A9DA3C100D73449 /* FACoreDataManager.m */,
+				8EFCB0391A9DA3C100D73449 /* FACoreDataRepository+FADefaultRepositories.h */,
+				8EFCB03A1A9DA3C100D73449 /* FACoreDataRepository+FADefaultRepositories.m */,
+				8EFCB03B1A9DA3C100D73449 /* FACoreDataRepository.h */,
+				8EFCB03C1A9DA3C100D73449 /* FACoreDataRepository.m */,
+				8EFCB03D1A9DA3C100D73449 /* FAManagedObjectContextProvider.h */,
+				8EFCB03E1A9DA3C100D73449 /* Models */,
+			);
+			path = ModelRepository;
+			sourceTree = "<group>";
+		};
+		8EFCB03E1A9DA3C100D73449 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCB03F1A9DA3C100D73449 /* _BaseModel.h */,
+				8EFCB0401A9DA3C100D73449 /* _BaseModel.m */,
+				8EFCB0411A9DA3C100D73449 /* BaseModel.h */,
+				8EFCB0421A9DA3C100D73449 /* BaseModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,16 +246,32 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFCB0541A9DA3C100D73449 /* FAManagedObjectContextProvider.h in Headers */,
+				8EFCB0521A9DA3C100D73449 /* FACoreDataRepository.h in Headers */,
+				8EFCB0431A9DA3C100D73449 /* FACoreDataImporter.h in Headers */,
+				8EFCB0241A9DA3B800D73449 /* FAAPIAdapter.h in Headers */,
+				8EFCB0271A9DA3B800D73449 /* FAModelObject.h in Headers */,
+				8EFCB04C1A9DA3C100D73449 /* FACoreDataManager+FADefaultManager.h in Headers */,
+				8EFCB0501A9DA3C100D73449 /* FACoreDataRepository+FADefaultRepositories.h in Headers */,
+				8EFCB0471A9DA3C100D73449 /* NSDictionary+FATypeSafe.h in Headers */,
+				8EFCB0571A9DA3C100D73449 /* BaseModel.h in Headers */,
 				8EFCB0061A9DA34500D73449 /* onion-model.h in Headers */,
+				8EFCB0281A9DA3B800D73449 /* FAModelRepository.h in Headers */,
+				8EFCB0261A9DA3B800D73449 /* FAModelMapping.h in Headers */,
+				8EFCB0451A9DA3C100D73449 /* NSArray+FANullSafe.h in Headers */,
+				8EFCB0251A9DA3B800D73449 /* FAModelImporter.h in Headers */,
+				8EFCB0551A9DA3C100D73449 /* _BaseModel.h in Headers */,
+				8EFCB04E1A9DA3C100D73449 /* FACoreDataManager.h in Headers */,
+				8EFCB0491A9DA3C100D73449 /* NSManagedObject+FARelationships.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8EFCAFFF1A9DA34500D73449 /* onion-model */ = {
+		8EFCAFFF1A9DA34500D73449 /* OnionModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EFCB0161A9DA34500D73449 /* Build configuration list for PBXNativeTarget "onion-model" */;
+			buildConfigurationList = 8EFCB0161A9DA34500D73449 /* Build configuration list for PBXNativeTarget "OnionModel" */;
 			buildPhases = (
 				8EFCAFFB1A9DA34500D73449 /* Sources */,
 				8EFCAFFC1A9DA34500D73449 /* Frameworks */,
@@ -129,7 +282,7 @@
 			);
 			dependencies = (
 			);
-			name = "onion-model";
+			name = OnionModel;
 			productName = "onion-model";
 			productReference = 8EFCB0001A9DA34500D73449 /* onion-model.framework */;
 			productType = "com.apple.product-type.framework";
@@ -181,7 +334,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EFCAFFF1A9DA34500D73449 /* onion-model */,
+				8EFCAFFF1A9DA34500D73449 /* OnionModel */,
 				8EFCB00A1A9DA34500D73449 /* onion-modelTests */,
 			);
 		};
@@ -209,6 +362,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFCB0511A9DA3C100D73449 /* FACoreDataRepository+FADefaultRepositories.m in Sources */,
+				8EFCB04A1A9DA3C100D73449 /* NSManagedObject+FARelationships.m in Sources */,
+				8EFCB04F1A9DA3C100D73449 /* FACoreDataManager.m in Sources */,
+				8EFCB0581A9DA3C100D73449 /* BaseModel.m in Sources */,
+				8EFCB0481A9DA3C100D73449 /* NSDictionary+FATypeSafe.m in Sources */,
+				8EFCB04D1A9DA3C100D73449 /* FACoreDataManager+FADefaultManager.m in Sources */,
+				8EFCB04B1A9DA3C100D73449 /* data_model.xcdatamodel in Sources */,
+				8EFCB0531A9DA3C100D73449 /* FACoreDataRepository.m in Sources */,
+				8EFCB0441A9DA3C100D73449 /* FACoreDataImporter.m in Sources */,
+				8EFCB0561A9DA3C100D73449 /* _BaseModel.m in Sources */,
+				8EFCB0461A9DA3C100D73449 /* NSArray+FANullSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +389,7 @@
 /* Begin PBXTargetDependency section */
 		8EFCB00E1A9DA34500D73449 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8EFCAFFF1A9DA34500D73449 /* onion-model */;
+			target = 8EFCAFFF1A9DA34500D73449 /* OnionModel */;
 			targetProxy = 8EFCB00D1A9DA34500D73449 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -387,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EFCB0161A9DA34500D73449 /* Build configuration list for PBXNativeTarget "onion-model" */ = {
+		8EFCB0161A9DA34500D73449 /* Build configuration list for PBXNativeTarget "OnionModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EFCB0171A9DA34500D73449 /* Debug */,
